@@ -82,7 +82,7 @@ const index = () => {
             Membres de l'équipage
           </h2>
           <div className="grid grid-cols-3 gap-3">
-            // Affiche tous les argonautes de la liste.
+            {/* Affiche tous les argonautes de la liste. */}
             {argonautes.map((argonaute) => (
               <div key={argonaute._id} className="flex justify-center">
                 <div className="flex flex-row py-1 px-4 border-2 border-black/10 rounded-full hover:scale-110 duration-75 hover:border-[#f76c6c]  w-40 justify-between items-center">
